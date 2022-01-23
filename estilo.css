@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(238, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pop-up{
+    background: #FFFFFF;
+    height:300px;
+    width:350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.X{
+    color:#2C3E50;
+    margin-top: -20px;
+    margin-left: 280px;
+    font-size: 17px;
+    font-weight: 700;
+    opacity:0.5;
+}
+
+.first-icon{
+display:flex;
+justify-content: center;
+}
+
+.texto{
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn-uno {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    
+}
+
+.btn1{
+    background-color: #ED6755;
+    color:#FFFFFF;
+    width:60%;
+    height:20%;
+    padding:10px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 0px 3px 6px #f0b5ad;
+}
+
+.pop-up2{
+    background: #FFFFFF;
+    height:300px;
+    width:350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+.X2{
+    color:#2C3E50;
+    margin-top: -30px;
+    margin-left: 280px;
+    font-size: 17px;
+    font-weight: 700;
+    opacity:0.5;
+}
+
+.second-icon{
+    display:flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.texto2{
+    margin-left: 40px;
+    font-weight: 900;
+    width: 70%;
+    margin-top: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn-dos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    
+}
+
+.btn2{
+    background-color:rgb(43, 43, 93);
+    color:#FFFFFF;
+    width:60%;
+    height:20%;
+    padding:10px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 0px 3px 6px #2C3E50;
+    margin-top:20px;
